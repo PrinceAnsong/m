@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html data-ng-app="app">
 <head>
-    <title>Angoolargh!</title>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300" rel="stylesheet" type="text/css">
+    <title>MGHIB</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->
+    <!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">-->
+    <!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300" rel="stylesheet" type="text/css">-->
+    <!--<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200" rel="stylesheet" type="text/css">-->
+    <style>
+        /*html, body{ background: url('http://subtlepatterns.com/patterns/congruent_outline.png') repeat; font-family: 'Open Sans', sans-serif; }*/
+        html, body{ background-color: #333; }
+        #main{ background-color: #EEE; border: 1px solid #999; color: #666; padding-top: 20px; padding-bottom: 20px; font-family: 'Source Sans Pro', sans-serif; }
+        .padded-container{ border: 1px solid #ccc; background-color: #FFF; padding: 10px; }
+        .left{ line-height: 2; font-size: 18px; }
+
+    </style>
 </head>
 <body>
 
@@ -24,20 +34,60 @@
     </nav>
 </header>
 
-<div id="main">
-    <div class="container">
-        <div data-ng-view class="page page-{{ pageClass }}" ></div>
+<div>
+    <div class="container" id="main">
+        <div class="row">
+            <div class="col-xs-8">
+                <div class="padded-container">
+                    <p>
+                        It gives us great pleasure as organisers of the Miss Ghana Belgium Beauty Pageant
+                        to congratulate you on having taken the first step in entering this prestigious event.
+                    </p>
+                    <p>
+                        Miss Ghana Belgium is brought to you by one of the most prominent and respected event
+                        organisers in Belgium and outside Belgium, here referred to as MGHIB ORGANISATION.
+                        MGHIB ORGANISATION would bring to you Beauty, Colour and Cultural diversity.
+                    </p>
+                    <p>
+                        This is not only to enhance the profile of the event but more importantly will enhance
+                        the individual profiles of you, the contestants.
+                    </p>
+                    <p>
+                        We wish to express our gratitude for the positive step you, the contestants, have taken
+                        to make this a most successful event. We applaud your collective courage and effort and
+                        would like to assure you of our unfailing support at every stage of the event.
+                    </p>
+                    <p>
+                        Completing this application form will be the beginning of a life changing journey that
+                        will expose you to the riches of Ghanaian culture.
+                    </p>
+                    <p>
+                        We hope this will be one of the most memorable experiences of your life.
+                    </p>
+                    <p class="bold">AKWAABA!!!</p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="right">
+                    <div style="padding: 10px; font-size: 20px; background-color: #7E1E14; border: 1px solid #aaa; border-bottom: 0;">News</div>
+                    <div class="padded-container">
+                        There is currently nothing to share here. Do check out our
+                        <a href="https://www.facebook.com/MGHIB" target="_blank">facebook page</a> for more.
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 <!-- block scripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-animate.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-<script src="https://cdn.rawgit.com/BinaryMuse/ngInfiniteScroll/1.0.0/build/ng-infinite-scroll.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>-->
+<!--<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.js"></script>-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-animate.js"></script>-->
+<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>-->
+<!--<script src="https://cdn.rawgit.com/BinaryMuse/ngInfiniteScroll/1.0.0/build/ng-infinite-scroll.min.js"></script>-->
 <!-- end block scripts -->
 </body>
 </html>
